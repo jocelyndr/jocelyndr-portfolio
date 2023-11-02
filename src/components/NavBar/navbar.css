@@ -1,4 +1,5 @@
 .navbar {
+    background: rgb(30,30,30); /*did this so that navbar isnt transparent anymore*/
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
