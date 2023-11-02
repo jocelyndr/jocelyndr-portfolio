@@ -1,0 +1,37 @@
+#contacts {
+    overflow: hidden;
+    width: 200rw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contactTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* .contactDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+} */
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 0.75rem;
+}
