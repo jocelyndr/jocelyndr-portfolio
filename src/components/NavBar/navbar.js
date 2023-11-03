@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './navbar.css';
-import logo from '../../assets/temp-logo.png';
 import {Link} from 'react-scroll';
 import menu from '../../assets/menuIcon.png';
 import flower from '../../assets/flower.png';
