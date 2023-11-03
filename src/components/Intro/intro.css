@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (max-width:428px) {
+@media screen and (max-width:432px) {
     .bg {
         right: -40vw;
     }
