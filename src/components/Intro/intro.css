@@ -46,7 +46,7 @@
 
 @media screen and (max-width:840px) {
     .bg {
-        right: -21vw;
+        right: -25vw;
     }
 
     .introContent {
@@ -56,11 +56,19 @@
     .hello {
         font-size: 4.5rw;
     }
+
+    .introPara {
+        color:white;
+    }
 }
 
 @media screen and (max-width:480px) {
     .bg {
-        right: -35vw;
+        right: -40vw;
+    }
+
+    .introPara {
+        color:white;
     }
 }
 
@@ -68,16 +76,25 @@
     .bg {
         right: -40vw;
     }
+    .introPara {
+        color:white;
+    }
 }
 
 @media screen and (max-width:375px) {
     .bg {
         right: -55vw;
     }
+    .introPara {
+        color:white;
+    }
 }
 
 @media screen and (max-width:390px) {
     .bg {
         right: -57vw;
+    }
+    .introPara {
+        color:white;
     }
 }
