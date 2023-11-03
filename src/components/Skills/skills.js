@@ -1,25 +1,27 @@
 import React from 'react';
 import './skills.css';
-import Contact from '../../assets/contact.png';
+import image1 from '../../assets/languages.png';
+import image2 from '../../assets/tech.png';
 
 const Skills = () =>{
     return(
         <section id='skills'>
             <span className="skillTitle">About Me</span>
-            <span className="skillDescription"> I am a computer science student persuing my bachelor's 
-            in science degree from Florida International University. I am expected to graduate in December 2023. 
-            I took a liking to computers and coding and decided this was the right path for me. I like the challenge of 
-            problem-solving and find it satisfying when the code works bug free.</span>
+            <span className="skillDescription"> I am a computer science student at Florida International University, 
+            pursuing my bachelor's degree with an expected graduation in December 2023. 
+            My journey into the world of computers and coding was a deliberate choice, 
+            driven by my passion for problem-solving. I find great satisfaction in ensuring
+             bug-free code and thrive on the challenges this field presents.</span>
             <div className="skillBars">
                 <div className="skillBar">
-                    <img src={Contact} alt="Contact" className="skillBarImg" />
+                    <img src={image1} alt="Contact" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Languages</h2>
                         <p>Java, Python, SQL, Swift, Javascript, HTML/CSS</p>
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={Contact} alt="Contact" className="skillBarImg" />
+                    <img src={image2} alt="Contact" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Technologies</h2>
                         <p>React.js, Node.js, SprintBoot, Streamlit, Git, AWS, VS Code,

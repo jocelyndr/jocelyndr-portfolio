@@ -36,7 +36,7 @@
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background: rgb(50,50,50);
+    background: #e2bfbb;
 }
 
 .projectBarImg {
@@ -44,6 +44,18 @@
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline; 
+    transition: color 0.3s; 
+
+    /* Change the color to white when hovered */
+    &:hover {
+        color: white;
+    }
 }
 
 .projectBarText>p {

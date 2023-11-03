@@ -7,10 +7,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
-
+/*#FAA0A0 #C9A9A6*/
 body {
-    background: rgb(30, 30, 30);
-    color: white; /* this is for text and above is main background color*/
+    background: #C9A9A6;
+    color: #811331; /* this is for text and above is main background color*/
     overflow: hidden;
     overflow-y: scroll;
 }

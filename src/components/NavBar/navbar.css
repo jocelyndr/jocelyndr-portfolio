@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(30,30,30); /*did this so that navbar isnt transparent anymore*/
+    background: #C9A9A6; /*did this so that navbar isnt transparent anymore*/
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -17,8 +17,9 @@
 .logo {
     object-fit: cover;
     height: 3rem;
-    width: 4rem;
+    width: 3rem;
 }
+
 
 .desktopMenuListItem {
     margin: 1rem;
@@ -26,9 +27,9 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: white;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid white;
 }
 
 .mobMenu {

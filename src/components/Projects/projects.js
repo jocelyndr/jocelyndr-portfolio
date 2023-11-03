@@ -1,17 +1,21 @@
 import React from 'react';
 import './projects.css';
-import Contact from '../../assets/contact.png';
+import newMom from '../../assets/numomImg.png';
+import paws from '../../assets/pawsFound.png';
+import jpmc from '../../assets/jpmc.png';
+import movie from '../../assets/cinema.png';
 
 const Projects = () =>{
     return(
         <section id="projects">
             <span className="projectTitle">Projects</span>
-            <span className="projectDescription">These are the projects I have worked on. Click on the title to direct to Github.</span>
+            <span className="projectDescription">These are the projects I have worked on which can be found on my Github.</span>
             <div className="projectBars">
                 <div className="projectBar">
-                    <img src={Contact} alt="Contact" className="projectBarImg" />
+                    <img src={newMom} alt="Contact" className="projectBarImg" />
                     <div className="projectBarText">
-                        <h2>NuMom</h2>
+                        <a href="https://github.com/edumorlom/nuMom" target="_blank" rel="noopener noreferrer">
+                            <h2>NuMom</h2></a>
                         <p>Collaborated with team members to support the development of NuMom for Fall 2023 term.
                             NuMom is a mobile phone based healthcare application designed for low-income minority mothers. This app
                              provides support in English, Spanish, and Haitian Creole. NuMom's goal is to provide early and continued 
@@ -22,9 +26,10 @@ const Projects = () =>{
                     </div>
                 </div>
                 <div className="projectBar">
-                    <img src={Contact} alt="Contact" className="projectBarImg" />
+                    <img src={movie} alt="Contact" className="projectBarImg" />
                     <div className="projectBarText">
-                        <h2>Cinematic Fanatic</h2>
+                        <a href="https://github.com/JoseBaez010/movie-web-app" target="_blank" rel="noopener noreferrer">
+                            <h2>Cinematic Fanatic</h2></a>
                         <p>Cinematic Fanatic is a web app designed for movie enthusiasts. The app allows its users to search movies and find 
                             interesting statistics and data related to it. The purpose of this project was to showcase our knowledge and understanding 
                             of human computer interaction principles.
@@ -34,9 +39,10 @@ const Projects = () =>{
                     </div>
                 </div>
                 <div className="projectBar">
-                    <img src={Contact} alt="Contact" className="projectBarImg" />
+                    <img src={paws} alt="Contact" className="projectBarImg" />
                     <div className="projectBarText">
-                        <h2>Paws and Found</h2>
+                        <a href="https://github.com/iInnovators/PawsAndFound" target="_blank" rel="noopener noreferrer">
+                            <h2>Paws and Found</h2></a>
                         <p>Paws and Found is an app for pets who are lost. Lost pet owners will be able to share information 
                             and users can DM them in case they have spotted/found the lost pets. The app is targeted for 
                             those who love and own animals looking for help or wanting to help others find their beloved pets. 
@@ -47,7 +53,7 @@ const Projects = () =>{
                     </div>
                 </div>
                 <div className="projectBar">
-                    <img src={Contact} alt="Contact" className="projectBarImg" />
+                    <img src={jpmc} alt="Contact" className="projectBarImg" />
                     <div className="projectBarText">
                         <h2>Electronic Statement Utility</h2>
                         <p>ESU is a tool that integrates with internal partner applications at JPMC to 
