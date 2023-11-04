@@ -4,6 +4,7 @@
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
 
 .bg { /*this is for the profile pic part*/
