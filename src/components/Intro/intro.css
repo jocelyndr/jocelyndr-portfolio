@@ -84,7 +84,7 @@
 
 @media screen and (max-width:375px) {
     .bg {
-        right: -55vw;
+        right: -58vw;
     }
     .introPara {
         color:white;
@@ -93,7 +93,7 @@
 
 @media screen and (max-width:390px) {
     .bg {
-        right: -57vw;
+        right: -60vw;
     }
     .introPara {
         color:white;
