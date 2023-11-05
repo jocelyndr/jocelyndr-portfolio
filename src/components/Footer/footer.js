@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
     return(
        <footer className="footer">
-        Copyright 2023 Jocelyn Rodriguez. All rights received.
+        Thank you for visiting my site!
        </footer>
     );
 }

@@ -17,7 +17,7 @@ const Skills = () =>{
                     <img src={image1} alt="Contact" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Languages</h2>
-                        <p>Java, Python, SQL, Swift, Javascript, HTML/CSS</p>
+                        <p>Java, Python, C, C++, SQL, Swift, JavaScript, HTML/CSS</p>
                     </div>
                 </div>
                 <div className="skillBar">
@@ -25,7 +25,7 @@ const Skills = () =>{
                     <div className="skillBarText">
                         <h2>Technologies</h2>
                         <p>React.js, Node.js, SprintBoot, Streamlit, Git, AWS, VS Code,
-                             Xcode, IntelliJ, PyCharm, Postman, JUnit</p>
+                             Xcode, IntelliJ, PyCharm, Postman, JUnit, Firebase, Streamlit</p>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
     height: 90vh;
     max-width: 700px;
     max-height: 700px;
-    
+    mask-image: linear-gradient(to bottom, rgb(0,0,0) 85%, transparent 100%);
 }
 
 .introContent {
