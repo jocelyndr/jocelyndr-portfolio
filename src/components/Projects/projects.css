@@ -34,7 +34,7 @@
 .projectBar {
     display: flex;
     margin: 1rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     background: #e2bfbb;
 }
@@ -43,7 +43,7 @@
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 a {
@@ -52,10 +52,15 @@ a {
     display: inline; 
     transition: color 0.3s; 
 
-    /* Change the color to white when hovered */
     &:hover {
         color: white;
     }
+}
+
+.projectBarText {
+    margin: 0;
+    position: relative;
+    overflow-wrap: break-word;
 }
 
 .projectBarText>p {
@@ -67,4 +72,16 @@ a {
     font-style: italic;
     font-size: 0.9rem;
     font-weight: 200;
+    padding: 0%;
+}
+
+@media (max-width: 370px) {
+    .projectBar {
+        flex-direction: column;
+    }
+
+    .projectBarImg {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 }

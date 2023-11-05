@@ -43,14 +43,27 @@
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+}
+
+.skillBarText {
+    margin: 0;
+    position: relative;
+    overflow-wrap: break-word;
 }
 
 .skillBarText>p {
     font-size: 0.9rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
-@media screen and (max-width:480px) {
-   
+@media (max-width: 370px) {
+    .skillBar {
+        flex-direction: column;
+    }
+
+    .skillBarImg {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 }
